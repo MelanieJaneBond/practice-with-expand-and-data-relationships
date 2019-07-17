@@ -1,24 +1,38 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    },
-    {
-      "id": 2,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
+  "employees" : [
+  {
+    "id": 1,
+    "name": "Jackie",
+    "departmentId": 2,
+    "computerId": 1
+  },
+  {
+    "id": 2,
+    "name": "Taylor",
+    "departmentId": 2,
+    "computerId": 1
+  },
+  {
+  "id": 3,
+  "name": "Mike",
+  "departmentId": 1,
+  "computerId": 1
+}
+],
+"departments" : [
+  {
+    "id": 1,
+    "name": "Third-Floor"
+  },
+  {
+    "id": 2,
+    "name": "Fourth-Floor"
   }
+],
+"computers" : [
+  {
+    "id": 1,
+    "type": "HP Spectre"
+  }
+]
 }
